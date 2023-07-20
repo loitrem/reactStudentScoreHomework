@@ -1,6 +1,67 @@
 .App {
+  width: 100%;
   text-align: center;
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+  background-color: rgb(39, 39, 39); 
 }
+.studentWrapper {
+  width: 600px;
+  border: 10px double rgb(158, 158, 158);
+  padding: 30px;
+  margin-top: 20px;
+  color: rgb(177, 177, 177);
+  border-radius: 45px;
+  margin-bottom: 20px;
+}
+
+
+.studentNameWrapper{
+  display: flex;
+  width: 100%;
+}
+
+.studentBioWrapper {
+  display: flex;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.studentName,.studentBio {
+  font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  color: #2a97b5;
+}
+
+.name, .bio {
+  font-size: 16px;
+  width: 75%;
+  text-align: left;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.scoreWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.scoreDateWrapper,.scoreScoreWrapper {
+  display: flex;
+  margin: 15px;
+}
+
+.scoreDate,.scoreScore {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #2a97b5;
+}
+
 
 .App-logo {
   height: 40vmin;
