@@ -6,7 +6,7 @@ import Student from './components/Student';
 
 function App() {
 
-  const [student, setStudent] = useState(students[0]);
+  const [student, setStudent] = useState(students);
 
 
   return (
