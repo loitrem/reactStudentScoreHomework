@@ -6,13 +6,13 @@ import Student from './components/Student';
 
 function App() {
 
-  const [student, setStudent] = useState(students);
+  const [student, setStudent] = useState({students: students});
 
 
   return (
     <div className="App">
 
-      {student.map((current, i)=>{
+      {student.students.map((current, i)=>{
         
         console.log("current - ");
         console.log(current);
